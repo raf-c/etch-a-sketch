@@ -1,0 +1,10 @@
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container > div {
+    border-color: black;
+    width: 25%;
+    box-sizing: border-box;
+}
