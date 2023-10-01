@@ -1,10 +1,20 @@
-#container {
+.site {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.container {
     display: flex;
     flex-wrap: wrap;
+    padding: 5% 10%;
+    border: solid 1px black;
 }
 
-#container > div {
-    border-color: black;
+.container > div {
+    border: solid 1px black;
     width: 25%;
     box-sizing: border-box;
+    aspect-ratio: 1/1;
 }
